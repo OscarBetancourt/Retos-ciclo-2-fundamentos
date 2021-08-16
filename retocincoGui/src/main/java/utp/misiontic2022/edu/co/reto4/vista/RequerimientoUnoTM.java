@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.ArrayList;
 import javax.swing.table.AbstractTableModel;
 import utp.misiontic2022.edu.co.reto4.modelo.vo.Requerimiento_1;
-import utp.misiontic2022.edu.co.reto4.modelo.vo.Requerimiento_2;
+
 
 /**
  *
@@ -26,9 +26,6 @@ public class RequerimientoUnoTM  extends AbstractTableModel{
         this.requerimientouno = requerimiento;
     }
 
-    RequerimientoUnoTM(ArrayList<Requerimiento_2> Requerimientodos) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
     
     public void setRequerimientouno(int row,Requerimiento_1 requrimiento){
         requerimientouno.set(row, requrimiento);
